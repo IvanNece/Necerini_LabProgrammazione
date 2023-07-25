@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Item.cpp">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Item.h">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
 		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/main.cpp">
 			<Option target="Necerini_LabProgrammazione"/>
 		</Unit>

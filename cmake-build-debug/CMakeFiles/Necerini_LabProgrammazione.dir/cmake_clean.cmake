@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj"
   "CMakeFiles/Necerini_LabProgrammazione.dir/main.cpp.obj"
   "Necerini_LabProgrammazione.exe"
   "Necerini_LabProgrammazione.exe.manifest"

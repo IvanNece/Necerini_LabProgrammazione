@@ -128,6 +128,30 @@ Necerini_LabProgrammazione/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/build
 .PHONY : Necerini_LabProgrammazione/fast
 
+Item.obj: Item.cpp.obj
+.PHONY : Item.obj
+
+# target to build an object file
+Item.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj
+.PHONY : Item.cpp.obj
+
+Item.i: Item.cpp.i
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Necerini_LabProgrammazione
+	@echo ... Item.obj
+	@echo ... Item.i
+	@echo ... Item.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
