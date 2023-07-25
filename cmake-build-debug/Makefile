@@ -224,6 +224,30 @@ Subject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.s
 .PHONY : Subject.cpp.s
 
+User.obj: User.cpp.obj
+.PHONY : User.obj
+
+# target to build an object file
+User.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.obj
+.PHONY : User.cpp.obj
+
+User.i: User.cpp.i
+.PHONY : User.i
+
+# target to preprocess a source file
+User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.i
+.PHONY : User.cpp.i
+
+User.s: User.cpp.s
+.PHONY : User.s
+
+# target to generate assembly for a file
+User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.s
+.PHONY : User.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -269,6 +293,9 @@ help:
 	@echo ... Subject.obj
 	@echo ... Subject.i
 	@echo ... Subject.s
+	@echo ... User.obj
+	@echo ... User.i
+	@echo ... User.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
