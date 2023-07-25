@@ -152,6 +152,78 @@ Item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.s
 .PHONY : Item.cpp.s
 
+Observer.obj: Observer.cpp.obj
+.PHONY : Observer.obj
+
+# target to build an object file
+Observer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj
+.PHONY : Observer.cpp.obj
+
+Observer.i: Observer.cpp.i
+.PHONY : Observer.i
+
+# target to preprocess a source file
+Observer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.i
+.PHONY : Observer.cpp.i
+
+Observer.s: Observer.cpp.s
+.PHONY : Observer.s
+
+# target to generate assembly for a file
+Observer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.s
+.PHONY : Observer.cpp.s
+
+ShoppingList.obj: ShoppingList.cpp.obj
+.PHONY : ShoppingList.obj
+
+# target to build an object file
+ShoppingList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj
+.PHONY : ShoppingList.cpp.obj
+
+ShoppingList.i: ShoppingList.cpp.i
+.PHONY : ShoppingList.i
+
+# target to preprocess a source file
+ShoppingList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.i
+.PHONY : ShoppingList.cpp.i
+
+ShoppingList.s: ShoppingList.cpp.s
+.PHONY : ShoppingList.s
+
+# target to generate assembly for a file
+ShoppingList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.s
+.PHONY : ShoppingList.cpp.s
+
+Subject.obj: Subject.cpp.obj
+.PHONY : Subject.obj
+
+# target to build an object file
+Subject.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj
+.PHONY : Subject.cpp.obj
+
+Subject.i: Subject.cpp.i
+.PHONY : Subject.i
+
+# target to preprocess a source file
+Subject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.i
+.PHONY : Subject.cpp.i
+
+Subject.s: Subject.cpp.s
+.PHONY : Subject.s
+
+# target to generate assembly for a file
+Subject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.s
+.PHONY : Subject.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +260,15 @@ help:
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
+	@echo ... Observer.obj
+	@echo ... Observer.i
+	@echo ... Observer.s
+	@echo ... ShoppingList.obj
+	@echo ... ShoppingList.i
+	@echo ... ShoppingList.s
+	@echo ... Subject.obj
+	@echo ... Subject.i
+	@echo ... Subject.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -16,15 +16,47 @@ public:
         if(q>=0)
             itemQta=q;
         else
-            throw out_of_range("Item quantity passed is not positive");
-        isCompleted=false;
+            throw std::out_of_range("Item quantity passed is not positive");
+        isBought=false;
     }
+
+    const string &getItemName() const {
+        return itemName;
+    }
+
+    const string &getItemCategory() const {
+        return itemCategory;
+    }
+
+    int getItemQta() const {
+        return itemQta;
+    }
+
+    void setItemQta(int itemQta) {
+        if(itemQta>=0)
+            Item::itemQta = itemQta;
+        else
+            throw std::out_of_range("Item quantity passed is not positive");
+    }
+
+    void buy(){
+        isBought=true;
+    }
+
+    void sell(){
+        isBought=false;
+    }
+
+    bool isBoughtStatus() const {
+        return isBought;
+    }
+
 
 private:
     string itemName;
     string itemCategory;
     int itemQta;
-    bool isCompleted;
+    bool isBought;
 };
 
 #endif //NECERINI_LABPROGRAMMAZIONE_ITEM_H

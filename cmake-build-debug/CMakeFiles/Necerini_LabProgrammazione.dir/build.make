@@ -91,21 +91,66 @@ CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Item.cpp -o CMakeFiles\Necerini_LabProgrammazione.dir\Item.cpp.s
 
+CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj: CMakeFiles/Necerini_LabProgrammazione.dir/flags.make
+CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj: ../Observer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Necerini_LabProgrammazione.dir\Observer.cpp.obj -c C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Observer.cpp
+
+CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Observer.cpp > CMakeFiles\Necerini_LabProgrammazione.dir\Observer.cpp.i
+
+CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Observer.cpp -o CMakeFiles\Necerini_LabProgrammazione.dir\Observer.cpp.s
+
+CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj: CMakeFiles/Necerini_LabProgrammazione.dir/flags.make
+CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj: ../Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Necerini_LabProgrammazione.dir\Subject.cpp.obj -c C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Subject.cpp
+
+CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Subject.cpp > CMakeFiles\Necerini_LabProgrammazione.dir\Subject.cpp.i
+
+CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\Subject.cpp -o CMakeFiles\Necerini_LabProgrammazione.dir\Subject.cpp.s
+
+CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj: CMakeFiles/Necerini_LabProgrammazione.dir/flags.make
+CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj: ../ShoppingList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Necerini_LabProgrammazione.dir\ShoppingList.cpp.obj -c C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\ShoppingList.cpp
+
+CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\ShoppingList.cpp > CMakeFiles\Necerini_LabProgrammazione.dir\ShoppingList.cpp.i
+
+CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\ShoppingList.cpp -o CMakeFiles\Necerini_LabProgrammazione.dir\ShoppingList.cpp.s
+
 # Object files for target Necerini_LabProgrammazione
 Necerini_LabProgrammazione_OBJECTS = \
 "CMakeFiles/Necerini_LabProgrammazione.dir/main.cpp.obj" \
-"CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj"
+"CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj" \
+"CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj" \
+"CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj" \
+"CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj"
 
 # External object files for target Necerini_LabProgrammazione
 Necerini_LabProgrammazione_EXTERNAL_OBJECTS =
 
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/main.cpp.obj
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj
+Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj
+Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj
+Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/build.make
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/linklibs.rsp
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/objects1.rsp
 Necerini_LabProgrammazione.exe: CMakeFiles/Necerini_LabProgrammazione.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Necerini_LabProgrammazione.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ivan\Desktop\Necerini_LabProgrammazione\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Necerini_LabProgrammazione.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Necerini_LabProgrammazione.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

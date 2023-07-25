@@ -86,6 +86,24 @@
 		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Item.h">
 			<Option target="Necerini_LabProgrammazione"/>
 		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Observer.cpp">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Observer.h">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/ShoppingList.cpp">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/ShoppingList.h">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Subject.cpp">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
+		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Subject.h">
+			<Option target="Necerini_LabProgrammazione"/>
+		</Unit>
 		<Unit filename="C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/main.cpp">
 			<Option target="Necerini_LabProgrammazione"/>
 		</Unit>
