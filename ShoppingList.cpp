@@ -44,6 +44,7 @@ void ShoppingList::addItem(const Item& item) {
         categories.insert(std::make_pair(itemCat, 1));
     }
 
+    // Notifico gli osservatori della modifica nella lista della spesa
     notify();
 }
 
@@ -106,33 +107,52 @@ int ShoppingList::getNotBoughtCount() const {
 }
 
 
+// Implementazione del metodo per stampare gli oggetti non acquistati nella lista
 void ShoppingList::printNotBought() const {
+    // Variabile per tenere traccia del totale degli oggetti non acquistati
     int totalNotBought = 0;
-    cout << "Items not bought in " << shoppingListName << ":" << endl;
 
+    // Stampa dell'intestazione con il nome della lista della spesa
+    cout << "Oggetti non acquistati in " << shoppingListName << ":" << endl;
+
+    // Iterazione attraverso le categorie degli oggetti
     for (const auto& itr : categories) {
+        // Estrai il nome della categoria corrente
         const string& category = itr.first;
+
+        // Variabile per conteggiare gli oggetti non acquistati nella categoria corrente
         int categoryNotBought = 0;
+
+        // Flag per controllare se è il primo oggetto nella categoria corrente
         bool first = true;
 
+        // Verifica se ci sono oggetti nella categoria corrente
         if (itr.second != 0) {
+            // Iterazione attraverso gli oggetti nella lista della spesa
             for (const auto& item : shoppingList) {
+                // Verifica se l'oggetto appartiene alla categoria corrente ed è non acquistato
                 if (item.second->getItemCategory() == category && !item.second->isBoughtStatus()) {
+                    // Stampa il nome della categoria solo alla prima iterazione
                     if (first) {
-                        cout << "Category: " << category << endl;
+                        cout << "Categoria: " << category << endl;
                         first = false;
                     }
 
+                    // Stampa il nome e la quantità dell'oggetto non acquistato
                     cout << "- " << item.first << " (" << item.second->getItemQta() << ")" << endl;
+
+                    // Aggiorna il conteggio degli oggetti non acquistati nella categoria
                     categoryNotBought += item.second->getItemQta();
                 }
             }
         }
 
+        // Aggiorna il conteggio totale degli oggetti non acquistati
         totalNotBought += categoryNotBought;
     }
 
-    cout << "Total number of items not bought: " << totalNotBought << endl;
+    // Stampa del numero totale di oggetti non acquistati nella lista
+    cout << "Numero totale di oggetti non acquistati: " << totalNotBought << endl;
     cout << endl;
 }
 
