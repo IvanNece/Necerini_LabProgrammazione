@@ -49,3 +49,7 @@ void User::removeShoppingList(const std::string& name) {
 const map<string, shared_ptr<ShoppingList>>& User::getMyLists() const {
     return myLists;
 }
+
+const string &User::getUserName() const {
+    return userName;
+}

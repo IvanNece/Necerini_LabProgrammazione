@@ -29,6 +29,8 @@ public:
 
     const map<string, shared_ptr<ShoppingList>>& getMyLists() const;
 
+    const string &getUserName() const;
+
 
 private:
     string userName;
