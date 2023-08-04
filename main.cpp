@@ -111,7 +111,7 @@ int main() {
                 cin >> itemCategory;
                 cout << endl;
 
-                cout << "Insert quantity (insert 'default' for default quantity): ";
+                cout << "Insert quantity";
                 cin >> quantityString;
                 cout << endl;
 
@@ -352,6 +352,23 @@ int main() {
         for (const auto &listPair : userPair.second.getMyLists()) {
             cout << endl;
             print(*listPair.second);
+
+            const string &listName = listPair.second->getShoppingListName();
+
+            auto itrl = shoppingLists.find(listName);
+
+            if (itrl != shoppingLists.end()) {
+                const ShoppingList &shoppingList = itrl->second;
+
+                cout << endl << "Items in list \"" << listName << "\":" << endl;
+
+                for (const auto &itemEntry : shoppingList.getShoppingList()) {
+                    const shared_ptr<Item> &item = itemEntry.second;
+                    cout << "- " << item->getItemName() << " (" << item->getItemQta() << ")";
+                    cout << (item->isBoughtStatus() ? "       Bought" : "       Not bought") << endl;
+                }
+                cout << endl;
+            }
         }
     }
 
