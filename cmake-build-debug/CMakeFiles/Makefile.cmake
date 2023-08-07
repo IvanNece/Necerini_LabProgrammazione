@@ -22,6 +22,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/FindPython/Support.cmake"
+  "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/FindPython3.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -32,6 +36,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.2/bin/cmake/win/share/cmake-3.20/Modules/ProcessorCount.cmake"
   "../CMakeLists.txt"
+  "../Test/CMakeLists.txt"
+  "../Test/lib/googletest-main/googletest/CMakeLists.txt"
+  "../Test/lib/googletest-main/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
@@ -47,9 +54,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Test/lib/googletest-main/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Necerini_LabProgrammazione.dir/DependInfo.cmake"
+  "CMakeFiles/core.dir/DependInfo.cmake"
+  "Test/CMakeFiles/runListsTest.dir/DependInfo.cmake"
+  "Test/lib/googletest-main/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "Test/lib/googletest-main/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

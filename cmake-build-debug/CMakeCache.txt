@@ -167,6 +167,21 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Necerini_LabProgrammazione
 
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION:STATIC=1.14.0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_MINOR:STATIC=14
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+
+//Value Computed by CMake
+CMAKE_PROJECT_VERSION_TWEAK:STATIC=
+
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ranlib.exe
 
@@ -252,6 +267,28 @@ Necerini_LabProgrammazione_BINARY_DIR:STATIC=C:/Users/Ivan/Desktop/Necerini_LabP
 
 //Value Computed by CMake
 Necerini_LabProgrammazione_SOURCE_DIR:STATIC=C:/Users/Ivan/Desktop/Necerini_LabProgrammazione
+
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/lib/googletest-main/googletest
+
+//Value Computed by CMake
+gtest_SOURCE_DIR:STATIC=C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/lib/googletest-main/googletest
+
+//Build gtest's sample programs.
+gtest_build_samples:BOOL=OFF
+
+//Build all of gtest's own tests.
+gtest_build_tests:BOOL=OFF
+
+//Disable uses of pthreads in gtest.
+gtest_disable_pthreads:BOOL=OFF
+
+//Use shared (DLL) run-time lib even when Google Test is built
+// as static lib.
+gtest_force_shared_crt:BOOL=OFF
+
+//Build gtest with internal symbols hidden in shared libraries.
+gtest_hide_internal_symbols:BOOL=OFF
 
 
 ########################
@@ -366,7 +403,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -420,4 +457,22 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Python3
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[C:/Users/Ivan/AppData/Local/Programs/Python/Python311/python.exe][cfound components: Interpreter ][v3.11.3()]
+//Path to a program.
+_Python3_EXECUTABLE:INTERNAL=C:/Users/Ivan/AppData/Local/Programs/Python/Python311/python.exe
+//Python3 Properties
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;3;64;;cp311-win_amd64;C:\Users\Ivan\AppData\Local\Programs\Python\Python311\Lib;C:\Users\Ivan\AppData\Local\Programs\Python\Python311\Lib;C:\Users\Ivan\AppData\Local\Programs\Python\Python311\Lib\site-packages;C:\Users\Ivan\AppData\Local\Programs\Python\Python311\Lib\site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=2919c0780b9a3bcc1c2b06f3400ee1ea
+cmake_package_name:INTERNAL=GTest
+//ADVANCED property for variable: gtest_build_samples
+gtest_build_samples-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: gtest_build_tests
+gtest_build_tests-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: gtest_disable_pthreads
+gtest_disable_pthreads-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: gtest_force_shared_crt
+gtest_force_shared_crt-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: gtest_hide_internal_symbols
+gtest_hide_internal_symbols-ADVANCED:INTERNAL=1
 

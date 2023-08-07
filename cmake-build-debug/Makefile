@@ -128,12 +128,64 @@ Necerini_LabProgrammazione/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/build
 .PHONY : Necerini_LabProgrammazione/fast
 
+#=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
+# Target rules for targets named runListsTest
+
+# Build rule for target.
+runListsTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 runListsTest
+.PHONY : runListsTest
+
+# fast build rule for target.
+runListsTest/fast:
+	$(MAKE) $(MAKESILENT) -f Test\CMakeFiles\runListsTest.dir\build.make Test/CMakeFiles/runListsTest.dir/build
+.PHONY : runListsTest/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f Test\lib\googletest-main\googletest\CMakeFiles\gtest.dir\build.make Test/lib/googletest-main/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f Test\lib\googletest-main\googletest\CMakeFiles\gtest_main.dir\build.make Test/lib/googletest-main/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 Item.obj: Item.cpp.obj
 .PHONY : Item.obj
 
 # target to build an object file
 Item.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Item.cpp.obj
 .PHONY : Item.cpp.obj
 
 Item.i: Item.cpp.i
@@ -141,7 +193,7 @@ Item.i: Item.cpp.i
 
 # target to preprocess a source file
 Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Item.cpp.i
 .PHONY : Item.cpp.i
 
 Item.s: Item.cpp.s
@@ -149,39 +201,15 @@ Item.s: Item.cpp.s
 
 # target to generate assembly for a file
 Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Item.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Item.cpp.s
 .PHONY : Item.cpp.s
-
-Observer.obj: Observer.cpp.obj
-.PHONY : Observer.obj
-
-# target to build an object file
-Observer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.obj
-.PHONY : Observer.cpp.obj
-
-Observer.i: Observer.cpp.i
-.PHONY : Observer.i
-
-# target to preprocess a source file
-Observer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.i
-.PHONY : Observer.cpp.i
-
-Observer.s: Observer.cpp.s
-.PHONY : Observer.s
-
-# target to generate assembly for a file
-Observer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Observer.cpp.s
-.PHONY : Observer.cpp.s
 
 ShoppingList.obj: ShoppingList.cpp.obj
 .PHONY : ShoppingList.obj
 
 # target to build an object file
 ShoppingList.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ShoppingList.cpp.obj
 .PHONY : ShoppingList.cpp.obj
 
 ShoppingList.i: ShoppingList.cpp.i
@@ -189,7 +217,7 @@ ShoppingList.i: ShoppingList.cpp.i
 
 # target to preprocess a source file
 ShoppingList.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ShoppingList.cpp.i
 .PHONY : ShoppingList.cpp.i
 
 ShoppingList.s: ShoppingList.cpp.s
@@ -197,39 +225,15 @@ ShoppingList.s: ShoppingList.cpp.s
 
 # target to generate assembly for a file
 ShoppingList.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/ShoppingList.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ShoppingList.cpp.s
 .PHONY : ShoppingList.cpp.s
-
-Subject.obj: Subject.cpp.obj
-.PHONY : Subject.obj
-
-# target to build an object file
-Subject.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.obj
-.PHONY : Subject.cpp.obj
-
-Subject.i: Subject.cpp.i
-.PHONY : Subject.i
-
-# target to preprocess a source file
-Subject.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.i
-.PHONY : Subject.cpp.i
-
-Subject.s: Subject.cpp.s
-.PHONY : Subject.s
-
-# target to generate assembly for a file
-Subject.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/Subject.cpp.s
-.PHONY : Subject.cpp.s
 
 User.obj: User.cpp.obj
 .PHONY : User.obj
 
 # target to build an object file
 User.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/User.cpp.obj
 .PHONY : User.cpp.obj
 
 User.i: User.cpp.i
@@ -237,7 +241,7 @@ User.i: User.cpp.i
 
 # target to preprocess a source file
 User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/User.cpp.i
 .PHONY : User.cpp.i
 
 User.s: User.cpp.s
@@ -245,7 +249,7 @@ User.s: User.cpp.s
 
 # target to generate assembly for a file
 User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Necerini_LabProgrammazione.dir\build.make CMakeFiles/Necerini_LabProgrammazione.dir/User.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/User.cpp.s
 .PHONY : User.cpp.s
 
 main.obj: main.cpp.obj
@@ -281,18 +285,16 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Necerini_LabProgrammazione
+	@echo ... core
+	@echo ... gtest
+	@echo ... gtest_main
+	@echo ... runListsTest
 	@echo ... Item.obj
 	@echo ... Item.i
 	@echo ... Item.s
-	@echo ... Observer.obj
-	@echo ... Observer.i
-	@echo ... Observer.s
 	@echo ... ShoppingList.obj
 	@echo ... ShoppingList.i
 	@echo ... ShoppingList.s
-	@echo ... Subject.obj
-	@echo ... Subject.i
-	@echo ... Subject.s
 	@echo ... User.obj
 	@echo ... User.i
 	@echo ... User.s

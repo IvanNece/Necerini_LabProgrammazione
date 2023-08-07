@@ -1,3 +1,11 @@
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/CMakeFiles/Necerini_LabProgrammazione.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/CMakeFiles/core.dir
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/CMakeFiles/runListsTest.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/CMakeFiles/edit_cache.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/CMakeFiles/rebuild_cache.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/lib/googletest-main/googletest/CMakeFiles/gtest.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/lib/googletest-main/googletest/CMakeFiles/gtest_main.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/lib/googletest-main/googletest/CMakeFiles/edit_cache.dir
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/cmake-build-debug/Test/lib/googletest-main/googletest/CMakeFiles/rebuild_cache.dir
