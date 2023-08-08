@@ -6,6 +6,8 @@
 
 int main(int argc, char ** argv)
 {
+    // Inizializza Google Test con gli argomenti della riga di comando
     ::testing::InitGoogleTest(&argc, argv);
+    // Esegui tutti i test registrati
     return RUN_ALL_TESTS();
 }
