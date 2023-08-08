@@ -4,6 +4,8 @@
 
 #include "User.h"
 
+User::User() : userName("User") {}
+
 User::User(const string& userName) : userName(userName) {}
 
 User::~User() {

@@ -19,7 +19,8 @@ using namespace std;
 
 class User: public Observer{
 public:
-    User(const std::string& name);
+    User();
+    User(const string& userName);
     virtual ~User();
 
     virtual void update(const string& listName) override;
