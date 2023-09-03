@@ -41,7 +41,7 @@ TEST_F(ShoppingListSuite, TestAddItem) {
     // Verifica che la dimensione della shopping list sia 4
     ASSERT_EQ(size, 4);
 
-    // Verifica che il numero totale di oggetti non comprati sia 11
+    // Verifica che il numero totale di oggetti non comprati sia 11 (1+1+5+4)
     ASSERT_EQ(s.getNotBoughtCount(), 11);
 
     // Provo ad aggiungere un oggetto con lo stesso nome (deve cambiare solo il numero totale di oggetti)

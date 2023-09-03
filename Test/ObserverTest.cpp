@@ -10,6 +10,7 @@
 class ObserverTest : public testing::Test, public Observer {
 public:
     // Metodo di callback implementato da Observer
+    // lo sovrascrivo per tenere traccia degli aggiornamenti
     void update(const string& listName) override {
         updated = true;
     }

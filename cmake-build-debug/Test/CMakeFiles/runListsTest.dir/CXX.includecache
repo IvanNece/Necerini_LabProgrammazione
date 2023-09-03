@@ -464,15 +464,21 @@ C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Subject.h
 Observer.h
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Observer.h
 
-C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/ShoppingListFixture.cpp
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/ItemTest.cpp
 gtest/gtest.h
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/gtest/gtest.h
+../Item.h
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Item.h
+
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/ObserverTest.cpp
+gtest/gtest.h
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/gtest/gtest.h
+../Observer.h
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Observer.h
 ../ShoppingList.h
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/ShoppingList.h
-../User.h
-C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/User.h
 
-C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/UserFixture.cpp
+C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/ShoppingListFixture.cpp
 gtest/gtest.h
 C:/Users/Ivan/Desktop/Necerini_LabProgrammazione/Test/gtest/gtest.h
 ../ShoppingList.h

@@ -8,10 +8,10 @@
 
 // Inizia la suite di test per la classe Item
 TEST(ItemSuite, TestConstructor) {
-    // Crea un oggetto Item utilizzando il costruttore
+    // Crea un oggetto Item utilizzando il costruttore e specifico nome, categoria e quantità
     Item i("cavolfiore", "verdura", 5);
 
-    // Verifica che i valori degli attributi dell'oggetto siano corretti
+    // Verifica che i valori degli attributi dell'oggetto siano stati impostati correttamente
     ASSERT_EQ(i.getItemQta(), 5); // Verifica che la quantità sia 5
     ASSERT_EQ(i.getItemCategory(), "verdura"); // Verifica che la categoria sia "verdura"
     ASSERT_EQ(i.getItemName(), "cavolfiore"); // Verifica che il nome sia "cavolfiore"
