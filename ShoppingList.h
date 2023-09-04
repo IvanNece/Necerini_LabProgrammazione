@@ -50,14 +50,13 @@ public:
     // Imposta il nome della lista della spesa
     void setShoppingListName(const string& shoppingListName);
 
-    // Restituisce la mappa degli oggetti nella lista
-    const map<string, shared_ptr<Item>>& getShoppingList() const;
-
-    // Restituisce la lista degli osservatori
-    const list<Observer*>& getObservers() const;
-
     // Restituisce la mappa delle categorie degli oggetti
     const map<string, int>& getCategories() const;
+
+    int getShoppingListSize() const;
+
+    const shared_ptr<Item> findItem(const string& name) const;
+
 
     // Distruttore virtuale della classe ShoppingList
     virtual ~ShoppingList() = default;

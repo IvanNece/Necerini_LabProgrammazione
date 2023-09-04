@@ -19,6 +19,7 @@ void User::update(const std::string& listName) {
     cout << "Lista '" << listName << "' aggiornata:" << endl;
     cout << endl;
     itr->second->printNotBought();
+    //stampa dentro lista
 }
 
 void User::addShoppingList(ShoppingList& shoppingList) {

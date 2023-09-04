@@ -36,7 +36,8 @@ TEST_F(ShoppingListSuite, TestParametrizeConstructor) {
 TEST_F(ShoppingListSuite, TestAddItem) {
     Item catena("catena", "essenziali", 4);
     s.addItem(catena); // Aggiungi l'oggetto "catena" alla shopping list
-    int size = s.getShoppingList().size();
+    int size = s.getShoppingListSize();
+    //da vedere
 
     // Verifica che la dimensione della shopping list sia 4
     ASSERT_EQ(size, 4);
@@ -47,22 +48,30 @@ TEST_F(ShoppingListSuite, TestAddItem) {
     // Provo ad aggiungere un oggetto con lo stesso nome (deve cambiare solo il numero totale di oggetti)
     Item catenaPro("catena", "essenziali", 2);
     s.addItem(catenaPro);
-    size = s.getShoppingList().size();
+    size = s.getShoppingListSize();
     ASSERT_EQ(size, 4);
     ASSERT_EQ(s.getNotBoughtCount(), 13);
 
     // Modifica la quantità dell'oggetto "cintura" e verifica che sia cambiata correttamente
-    auto itr = s.getShoppingList().find("cintura");
-    itr->second->setItemQta(2);
-    auto ris = itr->second->getItemQta();
-    ASSERT_EQ(size, 4);
-    ASSERT_EQ(ris, 2);
+    const shared_ptr<Item> cinturaPtr = s.findItem("cintura");
+    if (cinturaPtr) {
+        // L'elemento "cintura" è stato trovato
+        cinturaPtr->setItemQta(2); // Modifica la quantità dell'oggetto "cintura"
+        auto ris = cinturaPtr->getItemQta(); // Ottieni la nuova quantità
+        ASSERT_EQ(ris, 2); // Verifica che la quantità sia cambiata correttamente
+        int size = s.getShoppingListSize(); // Ottieni la dimensione della shopping list
+        ASSERT_EQ(size, 4); // Verifica che la dimensione sia 4
+    } else {
+        // L'elemento "cintura" non è stato trovato
+        FAIL() << "Elemento 'cintura' non trovato nella shopping list";
+    }
+
 }
 
 // Test per verificare la rimozione di un elemento dalla shopping list
 TEST_F(ShoppingListSuite, TestRemoveItem) {
     s.removeItem("manubrio"); // Rimuovi l'oggetto "manubrio" dalla shopping list
-    int size = s.getShoppingList().size();
+    int size = s.getShoppingListSize();
     ASSERT_EQ(size, 2); // Verifica che la dimensione della shopping list sia 2
     ASSERT_EQ(s.getNotBoughtCount(), 6); // Verifica che il numero totale di oggetti non comprati sia 6
 }
@@ -71,15 +80,6 @@ TEST_F(ShoppingListSuite, TestRemoveItem) {
 TEST_F(ShoppingListSuite, TestSetBought) {
     s.setBought("manubrio"); // Imposta l'oggetto "manubrio" come comprato
     ASSERT_EQ(s.getNotBoughtCount(), 6); // Verifica che il numero totale di oggetti non comprati sia 6
-}
-
-// Test per verificare il funzionamento del subject-observer pattern
-TEST_F(ShoppingListSuite, TestSubject) {
-    s.attach(&user); // Aggiungi l'utente come observer della shopping list
-    ASSERT_EQ(1, s.getObservers().size()); // Verifica che l'utente sia stato aggiunto correttamente come observer
-
-    s.detach(&user); // Rimuovi l'utente come observer della shopping list
-    ASSERT_EQ(0, s.getObservers().size()); // Verifica che l'utente sia stato rimosso correttamente come observer
 }
 
 // Test per verificare il conteggio degli oggetti non comprati

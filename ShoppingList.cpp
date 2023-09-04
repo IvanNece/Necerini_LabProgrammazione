@@ -165,12 +165,18 @@ void ShoppingList::setShoppingListName(const string& shoppingListName) {
     this->shoppingListName = shoppingListName;
 }
 
-const map<string, shared_ptr<Item>>& ShoppingList::getShoppingList() const {
-    return shoppingList;
+
+int ShoppingList::getShoppingListSize() const {
+    return shoppingList.size();
 }
 
-const list<Observer*>& ShoppingList::getObservers() const {
-    return observers;
+const shared_ptr<Item> ShoppingList::findItem(const string& name) const {
+    auto itr = shoppingList.find(name);
+    if (itr != shoppingList.end()) {
+        return itr->second;
+    } else {
+        return nullptr; // Se l'elemento non è stato trovato, restituisci un puntatore nullo
+    }
 }
 
 const map<string, int>& ShoppingList::getCategories() const {
